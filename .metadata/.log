@@ -1,0 +1,143 @@
+!SESSION 2021-09-29 16:27:54.368 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=15.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2021-09-29 16:28:08.532
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-09-29 16:28:08.532
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@606f0f70,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1a53ac0c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-09-29 16:28:26.718
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\mypc'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY Activator 1 0 2021-09-29 16:29:28.446
+!MESSAGE Has main method computation for project 'myapp'
+
+!ENTRY Activator 1 0 2021-09-29 16:29:44.188
+!MESSAGE Has main method computation for project 'myapp'
+
+!ENTRY org.eclipse.ui 2 2 2021-09-29 16:30:16.421
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY Activator 1 0 2021-09-29 16:30:34.808
+!MESSAGE Has main method computation for project 'myapp'
+
+!ENTRY Activator 1 0 2021-09-29 16:30:34.934
+!MESSAGE Has main method computation for project 'myapp'
+
+!ENTRY Activator 1 0 2021-09-29 16:30:35.527
+!MESSAGE Has main method computation for project 'myapp'
+
+!ENTRY org.eclipse.jface 2 0 2021-09-29 16:30:35.727
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-09-29 16:30:35.727
+!MESSAGE A conflict occurred for CTRL+D:
+Binding(CTRL+D,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.delete.line,Delete Line,
+		Delete a line of text,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7ef2f14e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+D,
+	ParameterizedCommand(Command(io.emmet.eclipse.commands.match_pair_outward,Match Pair Outward,
+		,
+		Category(io.emmet.eclipse.commands.category,Emmet,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@39dc0721,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY Activator 1 0 2021-09-29 16:31:13.910
+!MESSAGE Has main method computation for project 'myapp'
+
+!ENTRY Activator 1 0 2021-09-29 16:31:14.063
+!MESSAGE Has main method computation for project 'myapp'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-29 16:31:29.155
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-29 16:31:29.156
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@57703c54[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=1006)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-29 16:31:29.158
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-29 16:31:29.195
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY Activator 1 0 2021-09-29 16:31:29.308
+!MESSAGE Has main method computation for project 'myapp'
+
+!ENTRY Activator 1 0 2021-09-29 16:31:29.945
+!MESSAGE Has main method computation for project 'myapp'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-29 16:31:32.581
+!MESSAGE Boot LS startup time from start to initialized: 3415ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-29 16:31:32.671
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.DfCyDIIwisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-29 16:31:32.674
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-29 16:31:32.677
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-29 16:31:32.678
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-29 16:31:32.679
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.DfCyDIIw => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-29 16:31:32.680
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-29 16:31:32.692
+!MESSAGE classpath=71 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-29 16:31:32.699
+!MESSAGE buffering callback sts4.classpath.DfCyDIIw myapp false 71
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-29 16:31:32.700
+!MESSAGE executing callback sts4.classpath.DfCyDIIw 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-29 16:31:33.043
+!MESSAGE executing callback sts4.classpath.DfCyDIIw SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-09-29 16:32:07.471
+!MESSAGE Has main method computation for project 'myapp'
+
+!ENTRY Activator 1 0 2021-09-29 16:32:08.132
+!MESSAGE Has main method computation for project 'myapp'
+
+!ENTRY Activator 1 0 2021-09-29 16:39:22.961
+!MESSAGE Has main method computation for project 'myapp'
+
+!ENTRY Activator 1 0 2021-09-29 16:39:23.550
+!MESSAGE Has main method computation for project 'myapp'
